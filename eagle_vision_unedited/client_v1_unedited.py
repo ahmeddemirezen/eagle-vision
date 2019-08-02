@@ -46,27 +46,27 @@ while True:
                 print("V 10")
         #Horizontal
             elif data=="H 0".encode():
-                print("asdasd 0")
+                print("H 0")
             elif data=="H 1".encode():
-                print("asdasd 1")
+                print("H 1")
             elif data=="H 2".encode():
-                print("asdasd 2")
+                print("H 2")
             elif data=="H 3".encode():
-                print("asdasd 3")
+                print("H 3")
             elif data=="H 4".encode():
-                print("asdasd 4")
+                print("H 4")
             elif data=="H 5".encode():
-                print("asdasd 5")
+                print("H 5")
             elif data=="H 6".encode():
-                print("asdasd 6")
+                print("H 6")
             elif data=="H 7".encode():
-                print("asdasd 7")
+                print("H 7")
             elif data=="H 8".encode():
-                print("asdasd 8")
+                print("H 8")
             elif data=="H 9".encode():
-                print("asdasd 9")
+                print("H 9")
             elif data=="H 10".encode():
-                print("asdasd 10")        
+                print("H 10")        
         #Other        
             elif data=="close".encode():
                 print("client shutting down")
