@@ -2,7 +2,7 @@
 
 ## English
 
-Server that provides access to the Raspberry pi card via wifi. With this server you can easily control your raspberry pi card. You can customize the codes according to your request or according to your job. You can also make changes easily thanks to clearly written code.
+Remote controlled camera system.
 
 ## Getting Started
 
@@ -11,15 +11,11 @@ Server that provides access to the Raspberry pi card via wifi. With this server 
 The necessary items for the server are available in the file, but you can install the libraries that are used against the possible situation as follows.
 
 ```
-pip install socket
+pip3 install socket
 
-pip install python-handler-socket
+pip3 install RPi.GPIO
 
-pip install RPi.GPIO
-
-pip install smbus2
-
-pip install PCA9685-driver
+pip3 install adafruit-pca9685
 ```
 
 ### Installing
@@ -27,17 +23,17 @@ pip install PCA9685-driver
 The installation will first run the "server.py" file from the host.
 
 ```
-python /directory/server.py
+python3 /directory/server.py
 ```
 
 Here the user name and password will come up as the default user name: "admin" password: "123" is the form.
-After logging in successfully, we will ask you to enter host and port information. You must enter the local ip address of the server computer as a host. By default, the port address is set to "8585".
+After logging in successfully, we will ask you to enter host and port information. You must enter the local ip address of the server computer as a host. By default, the port address is set to "6969".
 
 Example:
 
 ```
 Host=192.168.1.54
-port=8585
+port=6969
 ```
 
 After completing these operations, the order will be made via the raspberry pi card. In this section, we need to make small changes on the codes. Replace the IP address of the "client.py" file against the host variable.
@@ -49,23 +45,23 @@ host="192.168.1.54"
 And at the end of the process, you can now run the "client.py" file through the terminal.
 
 ```
-python /directory/client.py
+python3 /directory/client.py
 ```
 If you received a successful message from the server computer, everything went fine.
 
 ## Authors
 
-* **Ahmed Demirezen** - *Initial work* - [feezx1](https://github.com/feezx1)
+* **Ahmed Demirezen** [feezx1](https://github.com/ahmeddemirezen)
 
 ## Acknowledgments
 
-* Thanks to Kutalmış Köroğlu for helping me customize the program.
+* I am thanks to Ömer Ermiş for he helped me at all of problem.
 
 # Eagle Vision
 
 ## Türkçe
 
-Raspberry pi kartına wifi üzerinden erişim imkanı tanıyan sunucu. Bu sunucu ile raspberry pi kartınızı kolay bir şekilde kontrol edebilirsiniz. Kodları isteğinize göre veya kullanıcağınız işe göre özelleştirebilirsiniz. Anlaşılır bir şekilde yazılmış kodlar sayesinde de değişiklikleri kolay bir şekilde yapabilirsiniz. 
+Uzaktan kontrol edilebilir kamera sistemi. 
 
 ## Kullanım Kılavuzu
 
@@ -74,15 +70,11 @@ Raspberry pi kartına wifi üzerinden erişim imkanı tanıyan sunucu. Bu sunucu
 Sunucu için gerekli öğeler dosyanın içerisinde mevcut ama olası duruma karşı kullanılan kütüphanelerin kurulumunu aşağıdaki gibi yapabilirsiniz.
 
 ```
-pip install socket
+pip3 install socket
 
-pip install python-handler-socket
+pip3 install RPi.GPIO
 
-pip install RPi.GPIO
-
-pip install smbus2
-
-pip install PCA9685-driver
+pip3 install adafruit-pca9685
 ```
 
 ### Kurulum
@@ -90,17 +82,17 @@ pip install PCA9685-driver
 Kurulum için ilk olarak ana bilgisayardan "server.py" dosyasını çalıştırmak olacaktır.
 
 ```
-python /dizin/server.py
+python3 /dizin/server.py
 ```
 
 Burada karşınıza kullanıcı adı ve şifre çıkacaktır bunlar varsayılan olarak kullanıcı adı:"admin" şifre:"123" şeklindedir.
-Başarılı bir şekilde giriş yaptıktan sonra bizden host ve port bilgilerini girmemizi isteyecektir. Burada host olarak sunucu bilgisayarın yerel ip adresini girmeniz gerekmektedir. Varsayılan olarak port adresi "8585" olarak ayarlıdır bunu isteğinize göre yapılandırabilirsiniz.
+Başarılı bir şekilde giriş yaptıktan sonra bizden host ve port bilgilerini girmemizi isteyecektir. Burada host olarak sunucu bilgisayarın yerel ip adresini girmeniz gerekmektedir. Varsayılan olarak port adresi "6969" olarak ayarlıdır bunu isteğinize göre yapılandırabilirsiniz.
 
 Örneğin:
 
 ```
 Host=192.168.1.54
-port=8585
+port=6969
 ```
 
 Bu işlemleri tamamladıktan sonra sıra raspberry pi kartı üzerinden yapılacak olan ayarlara. Bu kısımda kodlar üzerinde küçük değişiklik yapmamız gerekmekte. "client.py" dosyasındaki host değişkenin karşısında yazan ip adresini sunucu ip adresi ile değiştirmek.
@@ -114,16 +106,16 @@ host="192.168.1.54"
 Ve sonunda işlemler tamam artık "client.py" dosyasını terminal üzerinden çalıştırabilirsiniz.
 
 ```
-python /dizin/client.py 
+python3 /dizin/client.py 
 ```
 
 Eğer sunucu bilgisayardan bağlantı başarılı şeklinde mesaj aldıysanız herşey yolunda gitmiş demektir.
 
 ## Yazarlar
 
-* **Ahmed Demirezen** - *İlk İş* - [feezx1](https://github.com/feezx1)
+* **Ahmed Demirezen** [feezx1](https://github.com/ahmeddemirezen)
 
 ## Emeği Geçenler
 
-* Programı özelleştirmemde yardımcı olan Kutalmış Köroğlu'na Teşekkür ederim.
+* Karşıma çıkan problemlerin çözümünde her zaman yardımcı olan Ömer Ermiş'e teşekkür etmeyi borç bilirim.
 
