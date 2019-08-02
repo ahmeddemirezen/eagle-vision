@@ -51,11 +51,11 @@ If you received a successful message from the server computer, everything went f
 
 ## Authors
 
-* **Ahmed Demirezen** [feezx1](https://github.com/ahmeddemirezen)
+* **[Ahmed Demirezen](https://github.com/ahmeddemirezen)**
 
 ## Acknowledgments
 
-* I am thanks to Ömer Ermiş for he helped me at all of problem.
+* I am thanks to [Ömer Ermiş](https://github.com/systran20) for he helped me at all of problem.
 
 # Eagle Vision
 
@@ -113,9 +113,9 @@ Eğer sunucu bilgisayardan bağlantı başarılı şeklinde mesaj aldıysanız h
 
 ## Yazarlar
 
-* **Ahmed Demirezen** [feezx1](https://github.com/ahmeddemirezen)
+* **[Ahmed Demirezen](https://github.com/ahmeddemirezen)**
 
 ## Emeği Geçenler
 
-* Karşıma çıkan problemlerin çözümünde her zaman yardımcı olan Ömer Ermiş'e teşekkür etmeyi borç bilirim.
+* Karşıma çıkan problemlerin çözümünde her zaman yardımcı olan [Ömer Ermiş](https://github.com/systran20)'e teşekkür etmeyi borç bilirim.
 
