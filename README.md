@@ -1,4 +1,4 @@
-# Raspberry Pi Control Server
+# Eagle Vision
 
 ## English
 
@@ -61,7 +61,7 @@ If you received a successful message from the server computer, everything went f
 
 * Thanks to Kutalmış Köroğlu for helping me customize the program.
 
-# Raspberry Pi Control Server
+# Eagle Vision
 
 ## Türkçe
 
