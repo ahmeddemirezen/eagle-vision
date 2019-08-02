@@ -13,6 +13,7 @@ pwm.set_pwm_freq(60)
 
 #gpio setup
 gpio.setmode(gpio.BCM)
+
 #laser setup
 gpio.setup(19,gpio.OUT)
 gpio.setup(26,gpio.OUT)
@@ -35,6 +36,7 @@ while True:
             data=server.recv(buf)
             if data=="command".encode():
                 print("Connection is succesfully")
+        
         #Vertical
             elif data=="V 0".encode():
                 print("V 0")
@@ -69,6 +71,7 @@ while True:
             elif data=="V 10".encode():
                 pwm.set_pwm(3, 0, 600)
                 print("V 10")
+        
         #Horizontal
             elif data=="H 0".encode():
                 pwm.set_pwm(0, 0, 150)
@@ -103,6 +106,7 @@ while True:
             elif data=="H 10".encode():
                 pwm.set_pwm(0, 0, 600)
                 print("H 10")        
+        
         #Other        
             elif data=="close".encode():
                 print("client shutting down")
