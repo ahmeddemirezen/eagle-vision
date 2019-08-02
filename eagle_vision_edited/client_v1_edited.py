@@ -130,5 +130,3 @@ while True:
         
     except ConnectionResetError:
         print("connection is ineffective. restarting client please wait,ErrorCode: ConnectionResetError")
-        
-        
