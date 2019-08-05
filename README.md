@@ -32,7 +32,7 @@ After logging in successfully, we will ask you to enter host and port informatio
 Example:
 
 ```
-Host=192.168.1.54
+Host=192.168.1.45
 port=6969
 ```
 
