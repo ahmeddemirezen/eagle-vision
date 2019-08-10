@@ -23,7 +23,7 @@ pip3 install adafruit-pca9685
 The installation will first run the "server.py" file from the host.
 
 ```
-python3 /directory/server.py
+python3 /directory/server_v1.py
 ```
 
 Here the user name and password will come up as the default user name: "admin" password: "123" is the form.
@@ -45,7 +45,7 @@ host="192.168.1.54"
 And at the end of the process, you can now run the "client.py" file through the terminal.
 
 ```
-python3 /directory/client.py
+python3 /directory/client_v1.py
 ```
 If you received a successful message from the server computer, everything went fine.
 
@@ -82,7 +82,7 @@ pip3 install adafruit-pca9685
 Kurulum için ilk olarak ana bilgisayardan "server.py" dosyasını çalıştırmak olacaktır.
 
 ```
-python3 /dizin/server.py
+python3 /dizin/server_v1.py
 ```
 
 Burada karşınıza kullanıcı adı ve şifre çıkacaktır bunlar varsayılan olarak kullanıcı adı:"admin" şifre:"123" şeklindedir.
@@ -106,7 +106,7 @@ host="192.168.1.54"
 Ve sonunda işlemler tamam artık "client.py" dosyasını terminal üzerinden çalıştırabilirsiniz.
 
 ```
-python3 /dizin/client.py 
+python3 /dizin/client_v1.py 
 ```
 
 Eğer sunucu bilgisayardan bağlantı başarılı şeklinde mesaj aldıysanız herşey yolunda gitmiş demektir.
